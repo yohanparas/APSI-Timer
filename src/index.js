@@ -2,12 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import TimerApp from './Timer';
 import reportWebVitals from './reportWebVitals';
+import Temperature from './Temperature';
+import SimpleForm from './SimpleForm';
+import ControlledVsUncontrolled from './ControlledVsUncontrolled';
+import SinglePageArc from './SinglePage';
+import TodoList from './Todo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <TimerApp/> */}
+    {/* <Temperature/> */}
+    {/* <ControlledVsUncontrolled/> */}
+    <SinglePageArc/>
+    <TodoList/>
+    <SimpleForm/>
   </React.StrictMode>
 );
 
